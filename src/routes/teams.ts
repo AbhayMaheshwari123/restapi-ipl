@@ -1,4 +1,4 @@
-import express, {ErrorRequestHandler, NextFunction, Request, Response} from 'express';
+import express, {Request, Response} from 'express';
 import {getAllTeamData, setAllTeamData} from "../controller/teams";
 const teams = express.Router();
 teams.get('/', async (req: Request, res: Response) => {

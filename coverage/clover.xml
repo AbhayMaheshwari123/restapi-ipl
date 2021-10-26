@@ -1,108 +1,108 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1635240994283" clover="3.2.0">
-  <project timestamp="1635240994283" name="All files">
+<coverage generated="1635255076516" clover="3.2.0">
+  <project timestamp="1635255076517" name="All files">
     <metrics statements="70" coveredstatements="63" conditionals="7" coveredconditionals="7" methods="20" coveredmethods="18" elements="97" coveredelements="88" complexity="0" loc="70" ncloc="70" packages="4" files="7" classes="7"/>
     <package name="src">
       <metrics statements="17" coveredstatements="17" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-      <file name="app.ts" path="C:\Users\Abhay Maheshwari\Documents\GitHub\ipl-api\src\app.ts">
+      <file name="app.ts" path="C:\Users\Abhay Maheshwari\Documents\GitHub\restapi-ipl\src\app.ts">
         <metrics statements="17" coveredstatements="17" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="1" count="1" type="stmt"/>
-        <line num="2" count="1" type="stmt"/>
-        <line num="3" count="1" type="stmt"/>
-        <line num="4" count="1" type="stmt"/>
-        <line num="5" count="1" type="stmt"/>
-        <line num="6" count="1" type="stmt"/>
-        <line num="7" count="1" type="stmt"/>
-        <line num="8" count="1" type="stmt"/>
-        <line num="10" count="1" type="stmt"/>
-        <line num="11" count="1" type="stmt"/>
-        <line num="12" count="1" type="stmt"/>
-        <line num="16" count="1" type="stmt"/>
-        <line num="17" count="1" type="stmt"/>
-        <line num="18" count="1" type="stmt"/>
-        <line num="19" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="2" count="3" type="stmt"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="4" count="3" type="stmt"/>
+        <line num="5" count="3" type="stmt"/>
+        <line num="6" count="3" type="stmt"/>
+        <line num="7" count="3" type="stmt"/>
+        <line num="8" count="3" type="stmt"/>
+        <line num="10" count="3" type="stmt"/>
+        <line num="11" count="3" type="stmt"/>
+        <line num="12" count="3" type="stmt"/>
+        <line num="16" count="3" type="stmt"/>
+        <line num="17" count="3" type="stmt"/>
+        <line num="18" count="3" type="stmt"/>
+        <line num="19" count="3" type="stmt"/>
         <line num="20" count="2" type="stmt"/>
-        <line num="23" count="1" type="stmt"/>
+        <line num="23" count="3" type="stmt"/>
       </file>
     </package>
     <package name="src.controller">
       <metrics statements="21" coveredstatements="17" conditionals="7" coveredconditionals="7" methods="11" coveredmethods="9"/>
-      <file name="team-details.ts" path="C:\Users\Abhay Maheshwari\Documents\GitHub\ipl-api\src\controller\team-details.ts">
+      <file name="team-details.ts" path="C:\Users\Abhay Maheshwari\Documents\GitHub\restapi-ipl\src\controller\team-details.ts">
         <metrics statements="11" coveredstatements="9" conditionals="4" coveredconditionals="4" methods="6" coveredmethods="5"/>
-        <line num="1" count="1" type="stmt"/>
-        <line num="19" count="2" type="stmt"/>
-        <line num="20" count="2" type="cond" truecount="1" falsecount="0"/>
-        <line num="21" count="2" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="19" count="3" type="stmt"/>
+        <line num="20" count="3" type="cond" truecount="1" falsecount="0"/>
+        <line num="21" count="3" type="stmt"/>
         <line num="22" count="0" type="stmt"/>
-        <line num="24" count="2" type="cond" truecount="2" falsecount="0"/>
-        <line num="26" count="1" type="stmt"/>
-        <line num="27" count="1" type="stmt"/>
-        <line num="33" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="24" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="26" count="3" type="stmt"/>
+        <line num="27" count="2" type="stmt"/>
+        <line num="33" count="2" type="cond" truecount="1" falsecount="0"/>
         <line num="35" count="0" type="stmt"/>
-        <line num="38" count="1" type="stmt"/>
+        <line num="38" count="3" type="stmt"/>
       </file>
-      <file name="teams.ts" path="C:\Users\Abhay Maheshwari\Documents\GitHub\ipl-api\src\controller\teams.ts">
+      <file name="teams.ts" path="C:\Users\Abhay Maheshwari\Documents\GitHub\restapi-ipl\src\controller\teams.ts">
         <metrics statements="10" coveredstatements="8" conditionals="3" coveredconditionals="3" methods="5" coveredmethods="4"/>
-        <line num="1" count="1" type="stmt"/>
-        <line num="3" count="2" type="stmt"/>
-        <line num="4" count="1" type="cond" truecount="2" falsecount="0"/>
-        <line num="5" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="3" count="5" type="stmt"/>
+        <line num="4" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="5" count="2" type="stmt"/>
         <line num="6" count="0" type="stmt"/>
-        <line num="9" count="1" type="stmt"/>
-        <line num="10" count="1" type="stmt"/>
-        <line num="17" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="9" count="3" type="stmt"/>
+        <line num="10" count="2" type="stmt"/>
+        <line num="17" count="2" type="cond" truecount="1" falsecount="0"/>
         <line num="19" count="0" type="stmt"/>
-        <line num="22" count="1" type="stmt"/>
+        <line num="22" count="3" type="stmt"/>
       </file>
     </package>
     <package name="src.models">
       <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-      <file name="team-details.ts" path="C:\Users\Abhay Maheshwari\Documents\GitHub\ipl-api\src\models\team-details.ts">
+      <file name="team-details.ts" path="C:\Users\Abhay Maheshwari\Documents\GitHub\restapi-ipl\src\models\team-details.ts">
         <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
-        <line num="3" count="1" type="stmt"/>
-        <line num="25" count="1" type="stmt"/>
-        <line num="26" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="25" count="3" type="stmt"/>
+        <line num="26" count="3" type="stmt"/>
       </file>
-      <file name="teams.ts" path="C:\Users\Abhay Maheshwari\Documents\GitHub\ipl-api\src\models\teams.ts">
+      <file name="teams.ts" path="C:\Users\Abhay Maheshwari\Documents\GitHub\restapi-ipl\src\models\teams.ts">
         <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
-        <line num="3" count="1" type="stmt"/>
-        <line num="16" count="1" type="stmt"/>
-        <line num="17" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="16" count="3" type="stmt"/>
+        <line num="17" count="3" type="stmt"/>
       </file>
     </package>
     <package name="src.routes">
       <metrics statements="24" coveredstatements="21" conditionals="0" coveredconditionals="0" methods="8" coveredmethods="8"/>
-      <file name="team-details.ts" path="C:\Users\Abhay Maheshwari\Documents\GitHub\ipl-api\src\routes\team-details.ts">
+      <file name="team-details.ts" path="C:\Users\Abhay Maheshwari\Documents\GitHub\restapi-ipl\src\routes\team-details.ts">
         <metrics statements="13" coveredstatements="12" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
-        <line num="1" count="1" type="stmt"/>
-        <line num="2" count="1" type="stmt"/>
-        <line num="4" count="1" type="stmt"/>
-        <line num="6" count="2" type="stmt"/>
-        <line num="7" count="2" type="stmt"/>
-        <line num="9" count="2" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="2" count="3" type="stmt"/>
+        <line num="4" count="3" type="stmt"/>
+        <line num="6" count="3" type="stmt"/>
+        <line num="7" count="3" type="stmt"/>
+        <line num="9" count="3" type="stmt"/>
         <line num="11" count="1" type="stmt"/>
-        <line num="16" count="1" type="stmt"/>
-        <line num="17" count="1" type="stmt"/>
-        <line num="18" count="1" type="stmt"/>
-        <line num="20" count="1" type="stmt"/>
+        <line num="16" count="3" type="stmt"/>
+        <line num="17" count="2" type="stmt"/>
+        <line num="18" count="2" type="stmt"/>
+        <line num="20" count="2" type="stmt"/>
         <line num="22" count="0" type="stmt"/>
-        <line num="26" count="1" type="stmt"/>
+        <line num="26" count="3" type="stmt"/>
       </file>
-      <file name="teams.ts" path="C:\Users\Abhay Maheshwari\Documents\GitHub\ipl-api\src\routes\teams.ts">
+      <file name="teams.ts" path="C:\Users\Abhay Maheshwari\Documents\GitHub\restapi-ipl\src\routes\teams.ts">
         <metrics statements="11" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
-        <line num="1" count="1" type="stmt"/>
-        <line num="2" count="1" type="stmt"/>
-        <line num="3" count="1" type="stmt"/>
-        <line num="4" count="1" type="stmt"/>
-        <line num="6" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="2" count="3" type="stmt"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="4" count="3" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
         <line num="8" count="0" type="stmt"/>
-        <line num="11" count="1" type="stmt"/>
-        <line num="12" count="1" type="stmt"/>
-        <line num="14" count="1" type="stmt"/>
+        <line num="11" count="3" type="stmt"/>
+        <line num="12" count="2" type="stmt"/>
+        <line num="14" count="2" type="stmt"/>
         <line num="16" count="0" type="stmt"/>
-        <line num="20" count="1" type="stmt"/>
+        <line num="20" count="3" type="stmt"/>
       </file>
     </package>
   </project>

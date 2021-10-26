@@ -1,0 +1,100 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "IPL Website",
+    "description": "All Teams and Players Data API",
+    "version": "0.1"
+  },
+  "servers": [
+    {
+      "url": "https://ipl-t20.herokuapp.com"
+    }
+  ],
+  "paths": {
+    "/teams": {
+      "get": {
+        "description": "Adding '/teams' will get you the all teams data",
+        "responses": {
+          "200": {
+            "description": "Auto generated using Swagger Inspector",
+            "content": {
+              "application/json; charset=utf-8": {
+                "schema": {
+                  "type": "string"
+                },
+                "examples": {}
+              }
+            }
+          }
+        },
+        "servers": [
+          {
+            "url": "https://ipl-t20.herokuapp.com"
+          }
+        ]
+      },
+      "servers": [
+        {
+          "url": "https://ipl-t20.herokuapp.com"
+        }
+      ]
+    },
+    "/teams/chennai-super-kings": {
+      "get": {
+        "description": "Adding '/teams/anyteamname' will get you the data of that team",
+        "responses": {
+          "200": {
+            "description": "Auto generated using Swagger Inspector",
+            "content": {
+              "application/json; charset=utf-8": {
+                "schema": {
+                  "type": "string"
+                },
+                "examples": {}
+              }
+            }
+          }
+        },
+        "servers": [
+          {
+            "url": "https://ipl-t20.herokuapp.com"
+          }
+        ]
+      },
+      "servers": [
+        {
+          "url": "https://ipl-t20.herokuapp.com"
+        }
+      ]
+    },
+    "/": {
+      "get": {
+        "description": "Adding only '/' will show unknown URL",
+        "responses": {
+          "200": {
+            "description": "Auto generated using Swagger Inspector",
+            "content": {
+              "text/html; charset=utf-8": {
+                "schema": {
+                  "type": "string"
+                },
+                "examples": {}
+              }
+            }
+          }
+        },
+        "servers": [
+          {
+            "url": "https://ipl-t20.herokuapp.com"
+          }
+        ]
+      },
+      "servers": [
+        {
+          "url": "https://ipl-t20.herokuapp.com"
+        }
+      ]
+    }
+  },
+  "components": {}
+}

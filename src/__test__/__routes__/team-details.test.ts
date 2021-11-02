@@ -1,5 +1,4 @@
 import request from 'supertest';
-import { TemplateLiteralType } from 'typescript';
 import app from '../../app';
 interface teamType {
     captainId: string,

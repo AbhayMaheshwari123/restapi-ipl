@@ -12,22 +12,23 @@ const mockTeamData={
     ],
     venue: "M. A. Chidambaram Stadium"
 }
+
 beforeAll(async()=>{
     config.config();
     const url=process.env.db || 'unknown';
-    await mongoose.connect(url)
+    await mongoose.connect(url);
 });
 
-it('should setAllTeamData set data for all teams',async()=>{
-    const data=await setAllTeamData(mockTeamData.id,mockTeamData.teamName,mockTeamData.winningYears,mockTeamData.venue)
-    expect(data.id).toBe('chennai-super-kings')
+it('should setAllTeamData add data for all teams',async()=>{
+    const data=await setAllTeamData(mockTeamData.id,mockTeamData.teamName,mockTeamData.winningYears,mockTeamData.venue);
+    expect(data.id).toBe('chennai-super-kings');
 })
 
 it('should getAllTeamData method fetch data for all teams',async()=>{
     const data=await getAllTeamData();
-    expect(data).not.toBe(null)
+    expect(data).not.toBe(null);
 })
 
 afterAll(async()=>{
-    await mongoose.connection.close
+    await mongoose.connection.close;
 })

@@ -21,22 +21,23 @@ const mockTeamData={
         }
     ]
 }
+
 beforeAll(async()=>{
     config.config();
     const url=process.env.db || 'unknown';
-    await mongoose.connect(url)
+    await mongoose.connect(url);
 });
 
 it('should getTeamDetails fetch data of particular team',async()=>{
     const data=await getTeamDetails('chennai-super-kings');
-    expect(data).not.toBe(null)
+    expect(data).not.toBe(null);
 })
 
-it('should setTeamDetails set data of particular team',async()=>{
+it('should setTeamDetails add data of particular team',async()=>{
     const data=await setTeamDetails(mockTeamData.id,mockTeamData.team,mockTeamData.players);
-    expect(data.id).toBe('chennai-super-kings')
+    expect(data.id).toBe('chennai-super-kings');
 })
 
 afterAll(async()=>{
-    await mongoose.connection.close
+    await mongoose.connection.close;
 })
